@@ -4,6 +4,7 @@ This repositories defines a virtual machine with Vagrant and VirtualBox for work
 
 The machine runs Elementary OS 0.3 for its operating system.  It is planned to include:
 
+- version control: git
 - programming languages: 
     - java 8
     - scala (version?)
