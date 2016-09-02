@@ -1,0 +1,11 @@
+[Default Applications]
+application/xml=atom.desktop
+text/plain=atom.desktop
+text/xml=atom.desktop
+text/plain;=atom.desktop
+
+[Added Associations]
+application/xml=atom.desktop;
+text/plain=atom.desktop;
+text/xml=atom.desktop;
+text/plain;=atom.desktop;

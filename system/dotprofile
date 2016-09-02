@@ -1,0 +1,4 @@
+
+export PATH=/vagrant/scripts:$PATH
+
+export EDITOR=/usr/bin/atom
