@@ -75,4 +75,21 @@ apt-get -y -q install oracle-java8-installer
 update-java-alternatives -s java-8-oracle
 
 
+
+apt-get remove scala-library scala
+wget www.scala-lang.org/files/archive/scala-2.11.8.deb
+dpkg -i scala-2.11.8.deb
+apt-get update
+apt-get install scala
+
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 642AC823
+apt-get update
+apt-get install sbt
+
+
+curl -L -o /usr/local/bin/amm https://git.io/v6j0F && chmod +x /usr/local/bin/amm
+
+cp /vagrant/system/predef.sc /home/vagrant/.ammonite
+
 # http://downloads.lightbend.com/scala/2.11.7/scala-2.11.7.deb ?
