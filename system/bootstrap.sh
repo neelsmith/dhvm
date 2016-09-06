@@ -43,6 +43,11 @@ apt-get -y install firefox
 apt-get -y install mdpress
 apt-get -y install pandoc
 
+#########################################################
+### System utilities
+#########################################################
+
+apt-get -y install dconf-tools
 
 # Set up vagrant user account:
 cp /vagrant/system/dotprofile /home/vagrant/.profile
