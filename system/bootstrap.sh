@@ -96,7 +96,6 @@ apt-get install sbt
 curl -L -o /usr/local/bin/amm https://git.io/v6j0F && chmod +x /usr/local/bin/amm
 
 mkdir /home/vagrant/.ammonite
-chown 
 cp /vagrant/system/predef.sc /home/vagrant/.ammonite
-
+chown -R vagrant /home/vagrant/.ammonite
 # http://downloads.lightbend.com/scala/2.11.7/scala-2.11.7.deb ?
